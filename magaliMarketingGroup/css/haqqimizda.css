@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*body{
+    text-align: center;
+}*/
+
+.about_img img, .services_img img{
+    border-radius:5px;
+    margin:10px 0;
+    width:100%;
+
+}
+.about_head h2, .services_head h2{
+    font-size:50px;
+    font-family: sans-serif ;
+    color:#808285;
+    margin:20px 0 0 0;
+}
+.about_text, .services_text {
+    font-size:14px;
+    color:#808285;
+    margin-bottom:20px;
+    float:left;
+       
+}
+.about_content, .services_content{
+    width:60%;
+    display:inline-block;  
+}
+.about, .services{
+    text-align:center;
+}
+
+
+.about_btn button, .services_btn button{
+    width: 100%;
+    border-radius:30px;
+    padding:15px;
+    border:none;
+    background-color: #808285;
+    font-size: 18px;
+    color:white;
+}

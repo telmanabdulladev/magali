@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*body{
+    text-align: center;
+}*/
+.gradient{
+background:linear-gradient(to bottom,#c500d3,white);
+
+}
+
+.about_img img, .services_img img{
+    border-radius:5px;
+    margin:10px 0;
+    width:100%;
+
+}
+.about_head h2, .services_head h2{
+    font-size:50px;
+    font-family: sans-serif ;
+    color:#808285;
+    margin:20px 0 0 0;
+}
+.about_text, .services_text {
+    font-size:14px;
+    color:#808285;
+    margin-bottom:20px;
+    float:left;
+       
+}
+.about_content, .services_content{
+    width:60%;
+    display:inline-block;  
+}
+.about, .services{
+    text-align:center;
+}
+
+
+.about_btn button, .services_btn button{
+    width: 100%;
+    border-radius:30px;
+    padding:15px;
+    border:none;
+    background-color: #808285;
+    font-size: 18px;
+    color:white;
+}
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display:none;
+    position:absolute;
+    width:100%;
+    right: 250%;
+    top: 100%;
+
+}
+
+.navbar_item{
+    width:600px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding:10px 0;
+    cursor:pointer;
+   
+}
+
+.navbar_item:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+.dropdown_menu{
+    position:absolute;
+    top:300%;
+    display:none;
+    width: 100%;
+   
+   
+}
+.dropdown{
+    position:relative;      
+}
+
+
+.icon{
+    font-size:30px;
+    margin:10px 0 0 10px;
+}
+
+
+
+.logo img{
+    width: 40%;
+    text-align: center;
+
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    transition:0.3s;
+    padding-top: 20px;
+    
+}
+
+.fmenu{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    
+}
+.header:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+
+}
+
+.show{
+display:block!important;
+height:400px!important;
+}
+a{
+text-decoration:none;
+}
+.header img{
+width:50px;
+}
+.header{
+display:flex;
+align-items:center;
+justify-content: space-between;
+width:100%;
+}
+
+.menu{
+width:100%;
+height:0px;
+overflow:hidden;
+transition: 0.5s;
+margin-left: 20px;
+}
+.list{
+text-align:center;
+height:50px;
+}
+.list a{
+color:rgba(0,0,0,0.7);
+}
+.line{
+margin-top: 5px;
+height:1px;
+width:100%;
+background-color:rgba(0,0,0,0.3);
+margin-bottom:10px;
+}
+
+.center{
+text-align:center;
+color:rgba(0,0,0,0.7);
+}
+
+.main{
+   width:60%;
+   margin:0 auto;
+
+       
+}
+
+.show2{
+    display:block!important;
+  }
+
+.a{
+
+    display:none;
+    
+    }
+.btn:hover {
+    transform:scale(1.1);
+    cursor:pointer;
+    transition:0.3s;
+}
+
+</style>
+</head>
+<body>
+
+<div class="main" >
+
+    
+<div class="header" onclick="show();">
+<div><img src="/magaliMarketingGroup/img/logo.jpeg"></div>
+
+<div class="center">Afandy Consultancy
+<br>
+055-306-66-26
+</div>
+
+
+<div>
+<i class="fa-solid fa-arrow-down"></i>
+</div>
+
+
+
+</div>
+
+<div class="menu" id="menu">
+<div class="line"></div>
+<div class="list"><a href="index.html">Ana Shifə</a></div>
+<div class="list"><a href="haqqimizda.html">Haqqımızda</a></div>
+<div class="list" onclick="korporativ()"><a href="#">Korporativ təlimlər</a></div>
+
+<div class="list a"><a href="#">Satış</a></div>
+<div class="list a"><a href="#">Marketing və PR</a></div>
+<div class="list a"><a href="#">Digər</a></div>
+<div class="list"><a href="#">Konsaltinq</a></div>
+<div class="list"><a href="#">Afandi Business Club</a></div>
+<div class="list"><a href="#">Müştərilərimiz</a></div>
+<div class="list"><a href="#">Bloq</a></div>
+<div class="list"><a href="#">Əlaqə</a></div>
+
+</div>
+</div>
+
+
+
+
+    <div class="about">
+      <div class="about_head gradient"><h2>Haqqimizda</h2></div>
+      <div class="about_content">
+          <div class="about_img"><img src="https://taplink.st/p/3/3/2/b/51365754.jpg?0" alt=""></div>
+          <div class="about_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos earum accusantium assumenda? Officiis voluptatem veniam consectetur. Dolores quam quae illum eaque? Illum eos at repellat fugiat temporibus accusamus consequuntur ab tempora. Nobis labore ipsam at temporibus consequatur et? Ad incidunt reiciendis debitis ea quasi ratione. Debitis quam excepturi vitae perferendis.</p></div>
+
+          
+          <div class="about_btn"><button class="btn">Daha ətraflı</button></div>
+      </div>
+    </div>
+    <div class="services">
+        <div class="services_head gradient"><h2>Xidmtlər</h2></div>
+        <div class="services_content"><h3>Korporativ təlimlər</h3>
+            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores fugiat molestiae officia a neque atque, totam obcaecati et eligendi dolor reiciendis accusamus dolore repellendus ex vel eveniet vero distinctio aspernatur, magni adipisci amet suscipit! Voluptates, placeat deleniti! Rerum expedita veritatis excepturi dolorum, ex eligendi fugiat pariatur magnam! Corrupti, dolorem?</p></div>
+            <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="services_head gradient"><h2>Konsalting</h2></div>
+        <div class="services_content">
+            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur esse laudantium non commodi, adipisci deserunt recusandae in numquam ullam accusamus quisquam at necessitatibus labore delectus aperiam suscipit est nostrum! Officia, provident. Nisi deleniti cupiditate iusto laudantium voluptates, doloremque praesentium magnam quos quam, eaque atque, quas ut! Ad, eaque placeat! Eius.</p></div>
+            <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="services_head gradient"><h2>Magali Business Club</h2></div>
+        <div class="services_content">
+            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
+            <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="services_head gradient"><h2>Müştərilərimiz</h2></div>
+        <div class="services_content">
+            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
+            <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
+        </div>
+
+    <div class="services">
+            <div class="services_head gradient"><h2>Blog</h2></div>
+            <div class="services_content">
+                <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+                <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
+                <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
+        </div>
+
+    <div class="services">
+            <div class="services_head gradient"><h2>Əlaqə</h2></div>
+            <div class="services_content">
+                <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+                <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
+                <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
+    </div>
+    </div>
+    <script>
+
+function show(){
+menu.classList.toggle("show");
+}
+
+function korporativ(){
+
+    var a=document.getElementsByClassName("a");
+    for(i=0;i<a.length;i++){
+    a[i].classList.toggle("show2");
+    
+    }
+}
+
+    </script>
+</body>
+</html>
