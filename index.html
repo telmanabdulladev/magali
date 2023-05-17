@@ -160,12 +160,17 @@ transition: 0.5s;
 margin-left: 20px;
 }
 .list{
+display:flex;
+justify-content: center;
+align-items: center;
+height:65px;
+font-family: sans-serif;
 text-align:center;
-height:50px;
 }
 .list a{
 color:rgba(0,0,0,0.7);
 }
+
 .line{
 margin-top: 5px;
 height:1px;
@@ -187,7 +192,7 @@ color:rgba(0,0,0,0.7);
 }
 
 .show2{
-    display:block!important;
+    display:flex!important;
   }
 
 .a{
@@ -214,7 +219,7 @@ color:rgba(0,0,0,0.7);
 }
 
 .foot_list{
-    height:60px;
+    height:65px;
     width:100%;
     text-align:center;
     
@@ -254,6 +259,11 @@ color:rgba(0,0,0,0.7);
     justify-content: center;
 }
 
+.center{
+    font-size:16px;
+    font-family: sans-serif;
+}
+
 
 </style>
 </head>
@@ -263,9 +273,9 @@ color:rgba(0,0,0,0.7);
 
     
 <div class="header" onclick="show();">
-<div><img src="/magaliMarketingGroup/img/logo.jpeg"></div>
+<div><img src="/img/logo.jpeg"></div>
 
-<div class="center">Afandy Consultancy
+<div class="center">Magali Consultancy
 <br>
 055-306-66-26
 </div>
@@ -285,13 +295,9 @@ color:rgba(0,0,0,0.7);
 <div class="list"><a href="haqqimizda.html">Haqqımızda</a></div>
 <div class="list" onclick="korporativ()"><a href="#">Korporativ təlimlər</a></div>
 
-<div class="list"><a href="#">Satış</a></div>
-<div class="list"><a href="#">Marketing və PR</a></div>
-<div class="list"><a href="#">Digər</a></div>
+<div class="list a"><a href="#">Satış</a></div>
+<div class="list a"><a href="#">Marketing və PR</a></div>
 <div class="list"><a href="#">Konsaltinq</a></div>
-<div class="list"><a href="#">Afandi Business Club</a></div>
-<div class="list"><a href="#">Müştərilərimiz</a></div>
-<div class="list"><a href="#">Bloq</a></div>
 <div class="list"><a href="#">Əlaqə</a></div>
 
 </div>
@@ -303,7 +309,7 @@ color:rgba(0,0,0,0.7);
     <div class="about">
       <div class="about_head gradient"><h2>Haqqimizda</h2></div>
       <div class="about_content">
-          <div class="about_img"><img src="https://taplink.st/p/3/3/2/b/51365754.jpg?0" alt=""></div>
+          <div class="about_img"><img src="/img/image1.jpeg" alt=""></div>
           <div class="about_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos earum accusantium assumenda? Officiis voluptatem veniam consectetur. Dolores quam quae illum eaque? Illum eos at repellat fugiat temporibus accusamus consequuntur ab tempora. Nobis labore ipsam at temporibus consequatur et? Ad incidunt reiciendis debitis ea quasi ratione. Debitis quam excepturi vitae perferendis.</p></div>
 
           
@@ -313,7 +319,7 @@ color:rgba(0,0,0,0.7);
     <div class="services">
         <div class="services_head gradient"><h2>Xidmtlər</h2></div>
         <div class="services_content"><h3>Korporativ təlimlər</h3>
-            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_img"><img src="/img/image1.jpeg" alt=""></div>
             <div class="services_text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores fugiat molestiae officia a neque atque, totam obcaecati et eligendi dolor reiciendis accusamus dolore repellendus ex vel eveniet vero distinctio aspernatur, magni adipisci amet suscipit! Voluptates, placeat deleniti! Rerum expedita veritatis excepturi dolorum, ex eligendi fugiat pariatur magnam! Corrupti, dolorem?</p></div>
             <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
         </div>
@@ -321,7 +327,7 @@ color:rgba(0,0,0,0.7);
     <div class="services">
         <div class="services_head gradient"><h2>Konsalting</h2></div>
         <div class="services_content">
-            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_img"><img src="/img/image1.jpeg" alt=""></div>
             <div class="services_text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur esse laudantium non commodi, adipisci deserunt recusandae in numquam ullam accusamus quisquam at necessitatibus labore delectus aperiam suscipit est nostrum! Officia, provident. Nisi deleniti cupiditate iusto laudantium voluptates, doloremque praesentium magnam quos quam, eaque atque, quas ut! Ad, eaque placeat! Eius.</p></div>
             <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
         </div>
@@ -329,7 +335,7 @@ color:rgba(0,0,0,0.7);
     <div class="services">
         <div class="services_head gradient"><h2>Magali Business Club</h2></div>
         <div class="services_content">
-            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_img"><img src="/img/image1.jpeg" alt=""></div>
             <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
             <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
         </div>
@@ -338,7 +344,7 @@ color:rgba(0,0,0,0.7);
     <div class="services">
         <div class="services_head gradient"><h2>Müştərilərimiz</h2></div>
         <div class="services_content">
-            <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+            <div class="services_img"><img src="/img/image1.jpeg" alt=""></div>
             <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
             <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
         </div>
@@ -346,7 +352,7 @@ color:rgba(0,0,0,0.7);
     <div class="services">
             <div class="services_head gradient"><h2>Blog</h2></div>
             <div class="services_content">
-                <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+                <div class="services_img"><img src="/img/image1.jpeg" alt=""></div>
                 <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
                 <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
         </div>
@@ -354,7 +360,7 @@ color:rgba(0,0,0,0.7);
     <div class="services">
             <div class="services_head gradient"><h2>Əlaqə</h2></div>
             <div class="services_content">
-                <div class="services_img"><img src="/magaliMarketingGroup/img/image1.jpeg" alt=""></div>
+                <div class="services_img"><img src="/img/image1.jpeg" alt=""></div>
                 <div class="services_text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus reprehenderit minima maiores dolorum aut cupiditate illum nisi perspiciatis unde laborum sint, similique ipsam, ratione officiis totam quasi repudiandae nobis libero porro. Doloremque reprehenderit, tempora repudiandae, modi saepe repellendus eaque iste voluptatem nesciunt eligendi sed unde possimus autem nemo facilis.</p></div>
                 <div class="services_btn"><button class="btn">Daha ətraflı</button></div>
     </div>
@@ -383,8 +389,8 @@ menu.classList.toggle("show");
 
 function korporativ(){
 
-    var a=document.getElementsByClassName("a");
-    for(i=0;i<a.length;i++){
+    let a=document.getElementsByClassName("a");
+    for(i=0;i<a.length;++i){
     a[i].classList.toggle("show2");
     
     }
